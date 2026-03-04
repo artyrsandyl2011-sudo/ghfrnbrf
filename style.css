@@ -160,3 +160,55 @@ header {
     line-height: 130%;
     max-width: 100%;
 }
+/* ===== GAMES SECTION ===== */
+
+.games-section {
+    background-image: url(./img/d375abbeb1e6662602095accb0ffdf53e1c86357.png);
+    padding: 100px 0;
+}
+
+.games-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.games-content {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.games-tag {
+    font-size: 18px;
+    font-weight: 600;
+    border: 2px solid white;
+    padding: 5px 15px;
+    width: fit-content;
+}
+
+.games-content h2 {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.games-content button {
+    width: 180px;
+    height: 55px;
+    border: none;
+    border-radius: 8px;
+    background: white;
+    color: #0d5fd3;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.games-content button:hover {
+    background: #e6e6e6;
+}
+
+.games-image img {
+    width: 350px;
+}
